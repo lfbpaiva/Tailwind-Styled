@@ -1,13 +1,20 @@
-GitHub Profile Viewer
-Este projeto é uma aplicação React criada com Vite + TypeScript que consome a API pública do GitHub para buscar perfis de usuários.
+# 🔍 GitHub Profile Viewer
+Bem-vindo ao GitHub Profile Viewer, uma aplicação React que permite buscar e visualizar perfis do GitHub de maneira simples e com dois estilos diferentes de interface: Styled-Components e Tailwind CSS.
 
-Ele possui duas rotas:
+---
 
-Uma utilizando Styled-Components
+## ✨ Funcionalidades
+Busca de perfis GitHub pelo nome de usuário
 
-Outra utilizando Tailwind CSS
+Duas rotas de exibição de perfil: uma com Styled-Components e outra com Tailwind CSS
 
-🔥 Tecnologias utilizadas
+Exibição de imagem de perfil, nome de usuário e username
+
+Layout responsivo para diferentes dispositivos
+
+---
+
+## 🧪 Tecnologias Utilizadas
 React
 
 TypeScript
@@ -18,53 +25,64 @@ Tailwind CSS
 
 Styled-Components
 
-API do GitHub
+GitHub API
 
-📁 Estrutura de Pastas
-src/
-├── assets/
-├── components/
-│   ├── GitHubProfileStyled.tsx
-│   └── GitHubProfileTailwind.tsx
-├── routes/
-│   ├── StyledPage.tsx
-│   └── TailwindPage.tsx
-├── styles/
-│   ├── App.css
-│   └── index.css
-├── App.tsx
-├── main.tsx
-├── vite-env.d.ts
+---
 
-🚀 Como rodar o projeto
-1 - Clone o repositório:
+## ▶️ Como usar
+```bash
+Para rodar a aplicação localmente, siga os passos abaixo:
+# Clone o repositório
 git clone https://github.com/lfbpaiva/Tailwind-Styled.git
-
-2- Acesse a pasta do projeto:
 cd Tailwind-Styled
 
-3- Instale as dependências:
+# Instale as dependências
 npm install
 
-4- Inicie o servidor de desenvolvimento:
+# Execute o projeto
 npm run dev
+Acesse o aplicativo no navegador em: http://localhost:5173.
+````
+---
 
-5- Abra o navegador:
-http://localhost:5173
+## 📁Estrutura de Pastas
+```bash
+Tailwind-Styled/
+├── assets/                      # Arquivos estáticos
+├── components/                  # Componentes reutilizáveis
+│   ├── GitHubProfileStyled.tsx  # Componente de perfil usando Styled-Components
+│   └── GitHubProfileTailwind.tsx# Componente de perfil usando Tailwind CSS
+├── routes/                      # Definição das rotas da aplicação
+│   ├── StyledPage.tsx           # Rota com Styled-Components
+│   └── TailwindPage.tsx         # Rota com Tailwind CSS
+├── styles/                      # Arquivos de estilo
+│   ├── App.css                  # Estilos globais
+│   └── index.css                # Estilos adicionais
+├── App.tsx                      # Componente principal da aplicação
+├── main.tsx                     # Ponto de entrada para o React
+├── vite-env.d.ts                # Declarações de tipos para o Vite
+└── README.md                    # Documentação do projeto
+````
 
-🧠 Sobre o funcionamento
+---
+
+## 🧠 Sobre o funcionamento
 Digite o nome de um usuário do GitHub no campo de busca.
 
 Clique em "Rota em Tailwind" ou "Rota em Styled-Components" para visualizar o perfil.
 
 Cada rota tem um estilo de exibição diferente.
 
-📝 Observações importantes
+---
+
+##📝 Observações importantes
 Certifique-se de ter o Node.js instalado na sua máquina.
 
 Caso apareça erro de dependências, execute novamente npm install.
 
 O projeto foi testado e está funcionando normalmente.
 
+---
 
-
+## 👨‍💻 Autor
+Desenvolvido por @lfbpaiva 💜
