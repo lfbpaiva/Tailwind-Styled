@@ -1,54 +1,89 @@
-# React + TypeScript + Vite
+# 🔍 GitHub Profile Viewer
+Está é uma aplicação React que permite buscar e visualizar perfis do GitHub de maneira simples e com dois estilos diferentes de interface: Styled-Components e Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
+Busca de perfis GitHub pelo nome de usuário
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Duas rotas de exibição de perfil: uma com Styled-Components e outra com Tailwind CSS
 
-## Expanding the ESLint configuration
+Exibição de imagem de perfil, nome de usuário e username
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Layout responsivo para diferentes dispositivos
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧪 Tecnologias Utilizadas
+React
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+TypeScript
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Vite
+
+Tailwind CSS
+
+Styled-Components
+
+GitHub API
+
+---
+
+## ▶️ Como usar
+```bash
+Para rodar a aplicação localmente, siga os passos abaixo:
+
+# Clone o repositório
+git clone https://github.com/lfbpaiva/Tailwind-Styled.git
+cd Tailwind-Styled
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+Acesse o aplicativo no navegador em: 
+http://localhost:5173.
+````
+---
+
+## 📁Estrutura de Pastas
+```bash
+src/
+├── assets/                     
+├── components/                 
+│   ├── GitHubProfileStyled.tsx  
+│   └── GitHubProfileTailwind.tsx
+├── routes/                     
+│   ├── StyledPage.tsx          
+│   └── TailwindPage.tsx         
+├── styles/                      
+│   ├── App.css                
+│   └── index.css               
+├── App.tsx                      
+├── main.tsx                          
+└──  vite-env.d.ts                  
+````
+
+---
+
+## 🧠 Sobre o funcionamento
+Digite o nome de um usuário do GitHub no campo de busca.
+
+Clique em "Rota em Tailwind" ou "Rota em Styled-Components" para visualizar o perfil.
+
+Cada rota tem um estilo de exibição diferente.
+
+---
+
+## 📝 Observações importantes
+Certifique-se de ter o Node.js instalado na sua máquina.
+
+Caso apareça erro de dependências, execute novamente npm install.
+
+O projeto foi testado e está funcionando normalmente.
+
+---
+
+## 👨‍💻 Autor
+Desenvolvido por [@lfbpaiva](https://github.com/lfbpaiva) 💜
