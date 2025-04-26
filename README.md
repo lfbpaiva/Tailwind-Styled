@@ -32,6 +32,7 @@ GitHub API
 ## ▶️ Como usar
 ```bash
 Para rodar a aplicação localmente, siga os passos abaixo:
+
 # Clone o repositório
 git clone https://github.com/lfbpaiva/Tailwind-Styled.git
 cd Tailwind-Styled
@@ -41,27 +42,27 @@ npm install
 
 # Execute o projeto
 npm run dev
-Acesse o aplicativo no navegador em: http://localhost:5173.
+Acesse o aplicativo no navegador em: 
+http://localhost:5173.
 ````
 ---
 
 ## 📁Estrutura de Pastas
 ```bash
-Tailwind-Styled/
-├── assets/                      # Arquivos estáticos
-├── components/                  # Componentes reutilizáveis
-│   ├── GitHubProfileStyled.tsx  # Componente de perfil usando Styled-Components
-│   └── GitHubProfileTailwind.tsx# Componente de perfil usando Tailwind CSS
-├── routes/                      # Definição das rotas da aplicação
-│   ├── StyledPage.tsx           # Rota com Styled-Components
-│   └── TailwindPage.tsx         # Rota com Tailwind CSS
-├── styles/                      # Arquivos de estilo
-│   ├── App.css                  # Estilos globais
-│   └── index.css                # Estilos adicionais
-├── App.tsx                      # Componente principal da aplicação
-├── main.tsx                     # Ponto de entrada para o React
-├── vite-env.d.ts                # Declarações de tipos para o Vite
-└── README.md                    # Documentação do projeto
+src/
+├── assets/                     
+├── components/                 
+│   ├── GitHubProfileStyled.tsx  
+│   └── GitHubProfileTailwind.tsx
+├── routes/                     
+│   ├── StyledPage.tsx          
+│   └── TailwindPage.tsx         
+├── styles/                      
+│   ├── App.css                
+│   └── index.css               
+├── App.tsx                      
+├── main.tsx                          
+└──  vite-env.d.ts                  
 ````
 
 ---
