@@ -41,8 +41,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home usuario={usuario} setUsuario={setUsuario} />} />
-        <Route path="/Tailwind/:usuario" element={<TailwindPage usuario={usuario} />} />
-        <Route path="/Styled/:usuario" element={<StyledPage usuario={usuario} />} />
+        <Route path="/Tailwind/:usuario" element={<TailwindPage />} />
+        <Route path="/Styled/:usuario" element={<StyledPage />} />
       </Routes>
     </BrowserRouter>
   );
