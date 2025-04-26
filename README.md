@@ -1,5 +1,5 @@
 # 🔍 GitHub Profile Viewer
-Bem-vindo ao GitHub Profile Viewer, uma aplicação React que permite buscar e visualizar perfis do GitHub de maneira simples e com dois estilos diferentes de interface: Styled-Components e Tailwind CSS.
+Está é uma aplicação React que permite buscar e visualizar perfis do GitHub de maneira simples e com dois estilos diferentes de interface: Styled-Components e Tailwind CSS.
 
 ---
 
@@ -75,7 +75,7 @@ Cada rota tem um estilo de exibição diferente.
 
 ---
 
-##📝 Observações importantes
+## 📝 Observações importantes
 Certifique-se de ter o Node.js instalado na sua máquina.
 
 Caso apareça erro de dependências, execute novamente npm install.
@@ -85,4 +85,4 @@ O projeto foi testado e está funcionando normalmente.
 ---
 
 ## 👨‍💻 Autor
-Desenvolvido por @lfbpaiva 💜
+Desenvolvido por [@lfbpaiva](https://github.com/lfbpaiva) 💜
